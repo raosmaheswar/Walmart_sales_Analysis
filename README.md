@@ -23,7 +23,7 @@ mysql --local-infile=1 -u root -p (give password)
 Show Databases; (It'll show all the databases in MySQL server.)
 mysql> USE dbase; (makes the database that you had created in step 1 as default schema to use for the next sql scripts)
 
-mysql> LOAD DATA LOCAL INFILE 'fullpath\\file.csv'
+mysql> LOAD DATA LOCAL INFILE 'fullpath\\file.csv'<br>
 INTO TABLE tablename
 FIELDS TERMINATED BY','
 ENCLOSED BY '"'
